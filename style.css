@@ -16,16 +16,65 @@ body {
     margin-right: auto;
     background-color: white;
     box-sizing: border-box;
-    border: 1px solid;
+    border: 1px;
     width: 1000px;
-    height: 500px;
+    height: 100px;
 }
 #cor1 {
     background-color: black;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 25%;
+    margin-right: 0%;
     box-sizing: border-box;
     border: 1px solid;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
+    float: left;
+
+}
+#cor2 {
+    background-color: blue;
+    margin-left: 10%;
+    margin-right: 0%;
+    box-sizing: border-box;
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+#cor3 {
+    background-color: red;
+    margin-left: 10%;
+    margin-right: 0%;
+    box-sizing: border-box;
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+#cor4 {
+    background-color: antiquewhite;
+    margin-left: 10%;
+    margin-right: 0%;
+    box-sizing: border-box;
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+#pixel-board {
+    display: table-row;
+    background-color: white;
+    border: 1px solid black;
+  
+    
+}
+.pixel {
+    display: table-cell;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    
 }
