@@ -3,12 +3,14 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 23px;
     line-height: 35px;
+    background-image: ;
 }
 
 #title {
     color: black;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 3%;
 }
 
 #color-palette {
@@ -20,10 +22,11 @@ body {
     width: 1000px;
     height: 100px;
 }
+
 #cor1 {
     background-color: black;
-    margin-left: 25%;
-    margin-right: 0%;
+    margin-left: 38%;
+    margin-top: 3%;
     box-sizing: border-box;
     border: 1px solid;
     width: 40px;
@@ -31,10 +34,11 @@ body {
     float: left;
 
 }
+
 #cor2 {
-    background-color: blue;
-    margin-left: 10%;
-    margin-right: 0%;
+    background-color: salmon;
+    margin-left: 3%;
+    margin-top: 3%;
     box-sizing: border-box;
     border: 1px solid;
     width: 40px;
@@ -42,9 +46,9 @@ body {
     float: left;
 }
 #cor3 {
-    background-color: red;
-    margin-left: 10%;
-    margin-right: 0%;
+    background-color: slateblue;
+    margin-left: 3%;
+    margin-top: 3%;
     box-sizing: border-box;
     border: 1px solid;
     width: 40px;
@@ -53,22 +57,25 @@ body {
 }
 
 #cor4 {
-    background-color: antiquewhite;
-    margin-left: 10%;
-    margin-right: 0%;
+    background-color: lightseagreen;
+    margin-left: 3%;
+    margin-top: 3%;
     box-sizing: border-box;
     border: 1px solid;
     width: 40px;
     height: 40px;
     float: left;
 }
+
 #pixel-board {
     display: table-row;
     background-color: white;
     border: 1px solid black;
-  
-    
+    float:left;
+    margin-left: 43%;
+    margin-top: 0%;
 }
+
 .pixel {
     display: table-cell;
     background-color: white;
@@ -76,5 +83,4 @@ body {
     height: 40px;
     box-sizing: border-box;
     border: 1px solid black;
-    
 }
