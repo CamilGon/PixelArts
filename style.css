@@ -66,14 +66,21 @@ body {
     height: 40px;
     float: left;
 }
+#clear-board {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 0%;
+}
 
 #pixel-board {
     display: table-row;
+    justify-content: center;
     background-color: white;
     border: 1px solid black;
     float:left;
     margin-left: 43%;
-    margin-top: 0%;
+    margin-top: 1%;
 }
 
 .pixel {
